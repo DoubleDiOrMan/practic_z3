@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Движущийся треугольник.exe" version="1.0.0.3" publicKeyToken="b838203aaf195b4b" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Три треугольника.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Движущийся треугольник" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Движущийся треугольник.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Движущийся треугольник.exe" size="140728">
+      <assemblyIdentity name="Движущийся треугольник" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Op53V5/lTqmGLGIdgqz0DnCjC9o+JvBgublJA4bdJS4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Движущийся треугольник.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Три треугольника.ico" size="41662">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ie6xOvcOAnB4RSE2Uf+YF4v1a5zpmj0Oa+jQUy4lxFs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=A6F3\double_di" issuerKeyHash="c008d0ad1ab0f4ca8020e9b221e83323670ea13a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>V8YYTCemNsgndpeBcuxduznCQ1jCa7yg5bQSh27V9DI=</DigestValue></Reference></SignedInfo><SignatureValue>e79T1IZakkwWm54tHmnKYcsRDSQDfm0SsYxAHHsqAjHZ4LEkb4UigRaoHWUvxBZlf70ZHWSnLt2DOv2M0Zh3Mc4v3CMEHNrXdhR3dPDml61WF1oT96IUl0UDjVSw73ZztVD9owumGd6dBdK663Hvv8lTIi8wEMhzk2cw0z6UpE4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vhIh0hM8isg3qGyaKodUzgzukkzpwRwLgqNcC+Q2pFWdW9aSGqo0AcrjNICTvtZjq2k+mRfC6taOwKNS6WgbjT9SSHzoxO+MW9Em7XPB35NWIGPD5FtNOKZ0Z2q+fE3pZv77DAYGTClMucRA9JIsqhaSQb/onHT6OpMUB5mGFyE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="32f4d56e8712b4e5a0bc6bc25843c239bb5dec7281977627c836a6274c18c657" Description="" Url=""><as:assemblyIdentity name="Движущийся треугольник.exe" version="1.0.0.3" publicKeyToken="b838203aaf195b4b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=A6F3\double_di</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>f90X742pOoSxJZUjeVFJ73Cd+paD/v3Awk5j6SezOaY=</DigestValue></Reference></SignedInfo><SignatureValue>QAOxYnOzYrRhIO2unUv913hSPAx/sRV/gNYWhpglck7v+8LeOOeM5mONaIpeD0RFCYPfYom9LGUefqXfZjCDMGmUGATcCScdVaBA8SjOhWxSb0Mo1efVISffpCDNJ5mfscQ1+y5q1x8ntbxm897dnodZ7PBJUQuWGijL+BCJUxY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vhIh0hM8isg3qGyaKodUzgzukkzpwRwLgqNcC+Q2pFWdW9aSGqo0AcrjNICTvtZjq2k+mRfC6taOwKNS6WgbjT9SSHzoxO+MW9Em7XPB35NWIGPD5FtNOKZ0Z2q+fE3pZv77DAYGTClMucRA9JIsqhaSQb/onHT6OpMUB5mGFyE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQSnkyXzVmBYtB+bYZZYWBLDANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQQA2AEYAMwBcAGQAbwB1AGIAbABlAF8AZABpMB4XDTIyMDMyNTEyNTkzOVoXDTIzMDMyNTE4NTkzOVowJzElMCMGA1UEAx4cAEEANgBGADMAXABkAG8AdQBiAGwAZQBfAGQAaTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvhIh0hM8isg3qGyaKodUzgzukkzpwRwLgqNcC+Q2pFWdW9aSGqo0AcrjNICTvtZjq2k+mRfC6taOwKNS6WgbjT9SSHzoxO+MW9Em7XPB35NWIGPD5FtNOKZ0Z2q+fE3pZv77DAYGTClMucRA9JIsqhaSQb/onHT6OpMUB5mGFyECAwEAATANBgkqhkiG9w0BAQsFAAOBgQCHrE+i1CJ2t0ireIpYQAaYlbWJikEY4FG1ckZfWdt++s5lILZHPSsLmjABBUrkv1aDsuU32KCc1PHBS8SjW+oXBW81ZPC+uxoa/ucohQ3NhIUfkB9JU8kiV4C4F1Q1P75NNgo/SaHy5dhUsUYamI2qjiAwTaQ2FhwY1UUH9xcnhg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

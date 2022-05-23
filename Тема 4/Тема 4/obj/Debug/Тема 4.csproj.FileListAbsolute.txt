@@ -1,0 +1,16 @@
+C:\Users\double_di\source\repos\Тема 4\Тема 4\obj\Debug\Тема 4.csproj.AssemblyReference.cache
+C:\Users\double_di\source\repos\Тема 4\Тема 4\obj\Debug\Тема 4.csproj.SuggestedBindingRedirects.cache
+C:\Users\double_di\source\repos\Тема 4\Тема 4\obj\Debug\Тема_4.Form1.resources
+C:\Users\double_di\source\repos\Тема 4\Тема 4\obj\Debug\Тема_4.Properties.Resources.resources
+C:\Users\double_di\source\repos\Тема 4\Тема 4\obj\Debug\Тема_4.settings.resources
+C:\Users\double_di\source\repos\Тема 4\Тема 4\obj\Debug\Тема 4.csproj.GenerateResource.cache
+C:\Users\double_di\source\repos\Тема 4\Тема 4\obj\Debug\Тема 4.csproj.CoreCompileInputs.cache
+C:\Users\double_di\source\repos\Тема 4\Тема 4\bin\Debug\Движущийся треугольник.exe.config
+C:\Users\double_di\source\repos\Тема 4\Тема 4\bin\Debug\Движущийся треугольник.exe.manifest
+C:\Users\double_di\source\repos\Тема 4\Тема 4\bin\Debug\Движущийся треугольник.application
+C:\Users\double_di\source\repos\Тема 4\Тема 4\bin\Debug\Движущийся треугольник.exe
+C:\Users\double_di\source\repos\Тема 4\Тема 4\bin\Debug\Движущийся треугольник.pdb
+C:\Users\double_di\source\repos\Тема 4\Тема 4\obj\Debug\Движущийся треугольник.exe.manifest
+C:\Users\double_di\source\repos\Тема 4\Тема 4\obj\Debug\Движущийся треугольник.application
+C:\Users\double_di\source\repos\Тема 4\Тема 4\obj\Debug\Движущийся треугольник.exe
+C:\Users\double_di\source\repos\Тема 4\Тема 4\obj\Debug\Движущийся треугольник.pdb
